@@ -1,0 +1,61 @@
+head, body {
+    background-color: antiquewhite;
+}
+footer{
+    background-image: url(background.jpg);
+}
+a {
+    text-decoration: none;
+    
+}
+p {
+    text-align: justify;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 30px;
+}
+ul{
+    list-style: circle;
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgb(197, 180, 180);
+    transition: height 2s;
+    animation-name: animasi;
+    animation-duration: 5s;
+}
+
+header:hover{
+    height: 200px;
+    color: blueviolet;
+}
+
+.img{
+    float: right;
+}
+
+img.b {
+    border: 2px solid #575D63;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    align-items: center;  
+}
+@keyframes animasi{
+    from{background-color:rgb(197, 180, 180) ;}
+    to{background-color: red;}
+}
+
+font.a{
+    color: red;
+    display: inline;
+}
+
+
+
